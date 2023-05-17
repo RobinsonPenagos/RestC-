@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\obj\Debug\UniversitariaMovil.Transversal.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\obj\Debug\UniversitariaMovil.Transversal.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\bin\Debug\UniversitariaMovil.Transversal.dll
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\bin\Debug\UniversitariaMovil.Transversal.pdb
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\bin\Debug\UniversitariaMovil.Persistencia.dll
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\bin\Debug\UniversitariaMovil.Persistencia.pdb
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\bin\Debug\UniversitariaMovil.Persistencia.dll.config
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\obj\Debug\UniversitariaMovil.Transversal.csproj.CopyComplete
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\obj\Debug\UniversitariaMovil.Transversal.dll
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Transversal\obj\Debug\UniversitariaMovil.Transversal.pdb

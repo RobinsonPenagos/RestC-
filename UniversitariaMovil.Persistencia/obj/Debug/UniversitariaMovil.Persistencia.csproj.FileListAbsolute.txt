@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\bin\Debug\UniversitariaMovil.Persistencia.dll.config
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\bin\Debug\UniversitariaMovil.Persistencia.dll
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\bin\Debug\UniversitariaMovil.Persistencia.pdb
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\obj\Debug\UniversitariaMovil.Persistencia.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\obj\Debug\UniversitariaMovil.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\obj\Debug\UniversitariaMovil.Persistencia.dll
+C:\Users\User\Desktop\Sandra\UniversitariaMovil\UniversitariaMovil.Persistencia\obj\Debug\UniversitariaMovil.Persistencia.pdb

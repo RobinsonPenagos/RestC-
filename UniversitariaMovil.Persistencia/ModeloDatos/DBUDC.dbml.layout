@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10" name="DBUDC">
+  <DataContextMoniker Name="/DBUDCDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b70a038e-7dba-4983-8d5a-bfa21914309f" absoluteBounds="0.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBUDCDataContext/Document" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea12dc8b-c465-4919-84d2-17c450c92b08" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e212a9bb-2c45-40f7-9006-2276c979372f" absoluteBounds="0.75, 7, 2, 2.7324039713541675">
+      <DataClassMoniker Name="/DBUDCDataContext/Teacher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00683af6-40f9-4053-90a8-cf34e899be50" absoluteBounds="0.765, 7.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07bf21f9-710d-41b1-8f08-4857732c5ae8" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBUDCDataContext/Gender" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c56570b2-7293-40c4-be79-c9def5159b3d" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="511087fb-6fae-446a-9dd2-38316be25ab4" absoluteBounds="0.75, 4.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBUDCDataContext/Program" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35af8a0e-7eb7-43ad-bb86-94c60e4c93a1" absoluteBounds="0.765, 5.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="76b40781-b2e3-44ce-b774-c556d2f9be06" absoluteBounds="6.25, 2.375, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DBUDCDataContext/Results" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e166032-5232-4ad3-acfc-c441d84e46ce" absoluteBounds="6.265, 2.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25f987bb-ec19-4d62-9c2e-e7b5ded3d646" absoluteBounds="3.5, 1.875, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/DBUDCDataContext/Student" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd9151b4-21b9-4c15-8417-64cb85e58a9a" absoluteBounds="3.515, 2.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6360fc02-2a28-4d5a-a07d-73ac146f75d0" absoluteBounds="3.5, 7.625, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/DBUDCDataContext/Subject" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fdbf0ed-1566-4117-95b7-9f6f1feef42d" absoluteBounds="3.515, 8.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 3.35659912109375); (6.25 : 3.35659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBUDCDataContext/Student/Student_Results" />
+      <nodes>
+        <classShapeMoniker Id="25f987bb-ec19-4d62-9c2e-e7b5ded3d646" />
+        <classShapeMoniker Id="76b40781-b2e3-44ce-b774-c556d2f9be06" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.34699625651042); (3.5 : 3.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBUDCDataContext/Document/Document_Student" />
+      <nodes>
+        <classShapeMoniker Id="b70a038e-7dba-4983-8d5a-bfa21914309f" />
+        <classShapeMoniker Id="25f987bb-ec19-4d62-9c2e-e7b5ded3d646" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.3124995); (4.5 : 1.3124995); (4.5 : 1.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBUDCDataContext/Gender/Gender_Student" />
+      <nodes>
+        <classShapeMoniker Id="07bf21f9-710d-41b1-8f08-4857732c5ae8" />
+        <classShapeMoniker Id="25f987bb-ec19-4d62-9c2e-e7b5ded3d646" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.37184945833333); (4.5 : 5.37184945833333); (4.5 : 4.79970540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBUDCDataContext/Program/Program_Student" />
+      <nodes>
+        <classShapeMoniker Id="511087fb-6fae-446a-9dd2-38316be25ab4" />
+        <classShapeMoniker Id="25f987bb-ec19-4d62-9c2e-e7b5ded3d646" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.31814697265625); (7.25 : 8.31814697265625); (7.25 : 4.3381982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBUDCDataContext/Subject/Subject_Results" />
+      <nodes>
+        <classShapeMoniker Id="6360fc02-2a28-4d5a-a07d-73ac146f75d0" />
+        <classShapeMoniker Id="76b40781-b2e3-44ce-b774-c556d2f9be06" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 8.31814697265625); (3.5 : 8.31814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBUDCDataContext/Teacher/Teacher_Subject" />
+      <nodes>
+        <classShapeMoniker Id="e212a9bb-2c45-40f7-9006-2276c979372f" />
+        <classShapeMoniker Id="6360fc02-2a28-4d5a-a07d-73ac146f75d0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
